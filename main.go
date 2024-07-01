@@ -19,7 +19,6 @@ func main() {
 	formattedOutput := formatCronOutput(cronMap, command)
 
 	fmt.Print(formattedOutput)
-
 }
 
 func parseCronString(cronString string) map[string][]int {
