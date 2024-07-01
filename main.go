@@ -47,7 +47,7 @@ func parseCronString(cronString string) map[string][]int {
 		"day of month": daysOfMonth,
 		"month":        months,
 		"day of week":  daysOfWeek,
-		"command":      []int{len(command)}, // Special handling to keep the command field
+		"command":      []int{len(command)},
 	}
 }
 
